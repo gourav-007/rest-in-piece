@@ -1,6 +1,6 @@
 # Rest in Piece: A CURD API Automation Framework
 
-[![Build Status](https://github.com/gourav-007/rest-in-piece/actions/workflows/maven.yml/badge.svg?branch=main)](https://github.com/gourav-007/rest-in-piece/actions/workflows/maven.yml)
+[![Build Status](https://github.com/gourav-007/rest-in-piece/actions/workflows/weekly-tests.yml/badge.svg?branch=main)](https://github.com/gourav-007/rest-in-piece/actions/workflows/maven.yml)
 
 ## Introduction
 
