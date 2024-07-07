@@ -56,12 +56,10 @@ jobs:
           distribution: 'temurin'
           cache: maven
       - name: Running Tests
-        run: mvn clean test
-        uses: emibcn/badge-action@v2.0.2
+        run: mvn clean test 
+      - name: Badge Action
+        uses: emibcn/badge-action@v2.0.3
         with:
-          label: 'Test coverage'
-          status: '53.4%'
-          color: 'blue,555,daf'
           path: '.github/badges/coverage.svg'
     
       # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
