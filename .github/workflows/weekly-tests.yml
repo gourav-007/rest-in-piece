@@ -22,7 +22,7 @@ on:
         
       text2:
         description: 'Enter your userid'
-        default: ${{github.actor}}
+        default: '@gourav-007'
         required: true
         type: string
 
