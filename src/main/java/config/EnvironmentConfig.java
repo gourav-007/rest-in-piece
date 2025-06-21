@@ -45,4 +45,14 @@ public interface EnvironmentConfig extends Config {
     
     @Key("database.password")
     String databasePassword();
+    
+    // SSL verification configuration
+    @Key("ssl.verification.enabled")
+    @DefaultValue("true")
+    boolean sslVerificationEnabled();
+    
+    // Token expiry buffer configuration
+    @Key("token.expiry.buffer.minutes")
+    @DefaultValue("5")
+    int tokenExpiryBufferMinutes();
 }
