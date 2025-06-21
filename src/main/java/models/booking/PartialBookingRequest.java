@@ -1,0 +1,11 @@
+package models.booking;
+
+import lombok.Builder;
+import lombok.Data;
+
+@Data
+@Builder
+public class PartialBookingRequest {
+    private String firstname;
+    private String lastname;
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="End-to-End Test Suite" parallel="classes" thread-count="3">
+    <test name="Complete Booking Workflow" preserve-order="true">
+        <classes>
+            <class name="tests.booking.BookingCrudTests"/>
+            <class name="tests.booking.BookingNegativeTests"/>
+            <class name="tests.booking.BookingSchemaValidationTests"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Smoke Test Suite" parallel="methods" thread-count="3">
+    <test name="Booking Smoke Tests" preserve-order="true">
+        <classes>
+            <class name="tests.booking.BookingCrudTests">
+                <methods>
+                    <include name="testCreateBooking"/>
+                    <include name="testGetBooking"/>
+                    <include name="testDeleteBooking"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

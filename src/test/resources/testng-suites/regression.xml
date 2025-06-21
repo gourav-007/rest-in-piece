@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression Test Suite" parallel="methods" thread-count="5">
+    <test name="Booking CRUD Tests" preserve-order="true">
+        <classes>
+            <class name="tests.booking.BookingCrudTests"/>
+        </classes>
+    </test>
+    
+    <test name="Booking Negative Tests">
+        <classes>
+            <class name="tests.booking.BookingNegativeTests"/>
+        </classes>
+    </test>
+    
+    <test name="Schema Validation Tests">
+        <classes>
+            <class name="tests.booking.BookingSchemaValidationTests"/>
+        </classes>
+    </test>
+</suite>

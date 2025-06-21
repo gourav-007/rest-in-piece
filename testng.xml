@@ -1,2 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="C:/Users/gourav.jain1/IdeaProjects/restinpiece"><classes><class name="test.RestfulBookerE2ETests"><methods><include name="createBookingTest"/><include name="testCreateBookingJsonSchema"/><include name="updateBookingTest"/><include name="updatePartialBookingTest"/><include name="deleteBookingTest"/><include name="checkBookingIsDeleted"/></methods></class></classes></test></suite>

@@ -1,0 +1,28 @@
+{
+  "validBooking": {
+    "firstname": "John",
+    "lastname": "Doe",
+    "totalprice": 150,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2024-01-01",
+      "checkout": "2024-01-05"
+    },
+    "additionalneeds": "Breakfast"
+  },
+  "invalidBooking": {
+    "firstname": "",
+    "lastname": "",
+    "totalprice": -100,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2024-01-05",
+      "checkout": "2024-01-01"
+    },
+    "additionalneeds": "Breakfast"
+  },
+  "partialUpdate": {
+    "firstname": "Jane",
+    "lastname": "Smith"
+  }
+}
